@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELLO TIC-TAC-TOE</title>
+    <style>
+        .ttt-grid {
+            display: grid;
+            /* sets up columns in grid */
+            grid-template-columns: 100px 100px 100px; 
+            grid-gap: 10px;
+            width: 330px;
+        }
+        .ttt-cell {
+            background-color: #add8e6;
+            text-align: center;
+            font-size: 50px;
+            line-height: 100px;
+            width: 100px;
+            height: 100px;
+        }
+        .ttt-cell:hover {
+            background-color: #90ee90;
+        }
+    </style>
+</head>
+<body>
+    <h1>HELLO TIC-TAC-TOE</h1>
+
+<!-- sets the grid and places X and O -->
+<div class="ttt-grid">
+    <div class="ttt-cell">X</div>
+    <div class="ttt-cell">O</div>
+    <div class="ttt-cell"></div>
+    <div class="ttt-cell"></div>
+    <div class="ttt-cell">X</div>
+    <div class="ttt-cell"></div>
+    <div class="ttt-cell"></div>
+    <div class="ttt-cell"></div>
+    <div class="ttt-cell"></div>
+</div>
+
+</body>
+</html>
